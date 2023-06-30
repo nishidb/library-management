@@ -1,0 +1,10 @@
+.container {  
+    margin-top: 10%;  
+    width: 45%;  
+     
+    box-sizing: border-box;  
+}  
+  
+input.ng-invalid.ng-touched {  
+    border: 1px solid red;  
+}

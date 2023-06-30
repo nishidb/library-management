@@ -1,0 +1,40 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+     
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-size:30px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" routerLink="/home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" routerLink="/registration">Registration</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" routerLink="/about">About</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" routerLink="/admin"
+            *ngIf="userService.roleMatch(['Admin'])"
+            >Admin Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" routerLink="/user"
+            *ngIf="userService.roleMatch(['User'])"
+            >User Dashboard</a>
+          </li>
+         
+        </ul>
+        <button *ngIf="! isLoggedIn()" type="button" class="btn btn-success" routerLink="/login" >Login</button>
+        <button *ngIf="isLoggedIn()" type="button" class="btn btn-danger" (click)="logout()" >Logout</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- <div id="x"><b>WELCOME TO</b><b style="color: #053f81;"> E-LIBRARY</b> 
+    <br> 
+    <div class="upward-paragraph"> 
+    <marquee behavior="scroll" direction="up" scrollamount="5" >This is Student E-Library.</marquee> 
+   
+    </div>  
+   -->

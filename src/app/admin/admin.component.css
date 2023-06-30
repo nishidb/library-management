@@ -1,0 +1,47 @@
+.bk { 
+ 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover; 
+    color: #FFFFFF; 
+    width: 100%; 
+  } 
+   
+  li a:hover { 
+    background-color: #555; 
+    color: white; 
+   
+  } 
+   
+  .ul li { 
+    list-style: none; 
+    padding: 30px; 
+  } 
+   
+  .container { 
+    display: flex; 
+   
+    text-align: center; 
+    width: max-content; 
+    justify-content: center; 
+   
+    align-items: left; 
+    list-style: none; 
+    margin-top: 1%; 
+    margin-bottom: 1%; 
+    background-color: bisque; 
+    border: solid 10px #bc45a0; 
+   
+  } 
+   
+  .left-side { 
+   
+    padding: 2%; 
+    text-align: left; 
+    font-size: 210%; 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    color: rgb(15, 2, 23); 
+    margin-top: 30%; 
+    background-color: rgb(142, 189, 225); 
+   
+  }

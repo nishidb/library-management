@@ -1,0 +1,32 @@
+.nav-item.a{
+    font-size: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.collapse navbar-collapse .ul .li a{
+    font-size: 300px;
+}
+
+.button{
+    color:brown
+}
+ /* #x{ 
+    height:640px; 
+    width: 100%; 
+    background:rgba(76, 54, 54, 0.4);  
+    float: left; 
+    font-size: 41PX; 
+    color: white; 
+    text-align: center; 
+    padding-top: 250px; 
+    box-sizing: border-box; 
+} 
+.upward-paragraph { 
+    position:relative; 
+    top:78px; 
+    left:100px; 
+    height:100px; 
+    font-size: 30PX; 
+    color: rgb(4, 4, 55); 
+ 
+    
+  }  */

@@ -1,0 +1,15 @@
+#form1{height:400px;overflow-y:auto} 
+ 
+.container {  
+   margin-top: 5%;
+    width:40%;  
+    border: 5px solid rgb(108, 108, 235);  
+    box-sizing: border-box;  
+       
+        overflow: scroll; 
+       
+}  
+  
+input.ng-invalid.ng-touched {  
+    border: 1px solid red;  
+}

@@ -1,0 +1,116 @@
+<div class="p"> 
+    <div class="search-bar"> 
+        <input type="text" placeholder="Search" name="search"> 
+        <button class="search-button"> 
+            <!-- <i class="fas fa-search search-icon"></i> --> 
+            <img [src]="search" alt="Search" class="search-icon"> 
+          </button> 
+    </div> 
+</div> 
+
+<div class="card-container"> 
+
+    <div class="card"> 
+        <div class="image"> 
+            <img [src]="fiction" alt="Fiction"> 
+        </div> 
+        <div class="title"> 
+            <h1>Fiction</h1> 
+        </div> 
+        <div class="des"> 
+            <p>“Fiction is the lie through which we tell the truth.”</p> 
+            <button id="button1" (click)="openLink('button1')">Read More...</button> 
+        </div> 
+    </div> 
+
+    <div class="card"> 
+        <div class="image"> 
+            <img [src]="non" alt="Non-fiction"> 
+        </div> 
+        <div class="title"> 
+            <h1>Non-fiction</h1> 
+        </div> 
+        <div class="des"> 
+            <p>“Writing nonfiction is more like sculpture, a matter of shaping the research into the finished thing.”</p> 
+            <button id="button2" (click)="openLink('button2')">Read More...</button> 
+            
+        </div> 
+    </div> 
+
+    <div class="card"> 
+        <div class="image"> 
+            <img [src]="technology" alt="Technology"> 
+        </div> 
+        <div class="title"> 
+            <h1>Technology</h1> 
+        </div> 
+        <div class="des"> 
+            <p>“Any sufficiently advanced technology is indistinguishable from magic.”</p> 
+            <button id="button3" (click)="openLink('button3')">Read More...</button> 
+        </div> 
+    </div> 
+
+    <div class="card"> 
+        <div class="image"> 
+            <img [src]="historic" alt="Historic"> 
+        </div> 
+        <div class="title"> 
+            <h1>Historic</h1> 
+        </div> 
+        <div class="des"> 
+            <p>"A generation which ignores history has no past and no future."</p> 
+            <button id="button4" (click)="openLink('button4')">Read More...</button> 
+        </div> 
+    </div> 
+
+    <div class="card"> 
+        <div class="image"> 
+            <img [src]="bio" alt="Biography"> 
+        </div> 
+        <div class="title"> 
+            <h1>Biography</h1> 
+        </div> 
+        <div class="des"> 
+            <p>"Biography - a system in which the contradictions of a human life are unified."</p> 
+            <button id="button5" (click)="openLink('button5')">Read More...</button> 
+        </div> 
+    </div> 
+    <div class="card"> 
+        <div class="image"> 
+            <img [src]="mech" alt="Mechanics"> 
+        </div> 
+        <div class="title"> 
+            <h1>Mechanics</h1> 
+        </div> 
+        <div class="des"> 
+            <p>“When things get tough, there are two things that make life worth living: Mozart, and quantum mechanics”</p> 
+            <button id="button6" (click)="openLink('button6')">Read More...</button> 
+        </div> 
+    </div> 
+
+    <div class="card"> 
+        <div class="image"> 
+            <img [src]="philosophy" alt="Philosophy"> 
+        </div> 
+        <div class="title"> 
+            <h1>Philosophy</h1> 
+        </div> 
+        <div class="des"> 
+            <p>"Philosophy is a battle against the bewitchment of our intelligence by means of language".</p> 
+            <button id="button7" (click)="openLink('button7')">Read More...</button> 
+        </div> 
+    </div> 
+
+    <div class="card"> 
+        <div class="image"> 
+            <img [src]="mys" alt="Mystery"> 
+        </div> 
+        <div class="title"> 
+            <h1>Mystery</h1> 
+        </div> 
+        <div class="des">
+            <p>“Mystery creates wonder and wonder is the basis of man’s desire to understand.”</p> 
+                <button id="button8" (click)="openLink('button8')">Read More...</button> 
+            </div> 
+        </div> 
+    </div>
